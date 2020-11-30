@@ -1,7 +1,7 @@
 let total = 0;
 
-for (let i = 0; true; i++) {
-  let input = prompt('Enter a number to sum up');
+while (true) {
+    let input = prompt('Enter a number to sum up');
 
   if (input === null) {
     alert(`Your sum is ${total}`);

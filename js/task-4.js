@@ -3,7 +3,9 @@ const pricePerDroid = 3000;
 let droidAmount = prompt('How many droids you wanna to buy?');
 let totalPrice = 0;
 
-if (droidAmount === null) {} else {
+if (droidAmount === null) {
+  console.log('Cancelled by user');
+} else {
 totalPrice = pricePerDroid * droidAmount;
   if (totalPrice >= credits) {
     alert('You have insufficient funds!!!');
